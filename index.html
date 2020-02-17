@@ -43,22 +43,24 @@
     <main class="chats">
       <!--father -> chats는 메인화면의 모든 대화창을 가리킴-->
       <ul class="chats__list">
-        <li class="chats__chat">
-          <div class="chat__column">
-            <!--전역변수 g-avatar 설정-->
-            <img class="chat__avater g-avatar" src="images/avatar.png" />
-            <div class="chat__content">
-              <span class="chat_username">
-                Lynn
-              </span>
-              <span class="chat__preview">Going home</span>
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chat__column">
+              <!--전역변수 g-avatar 설정-->
+              <img class="chat__avater g-avatar" src="images/avatar.png" />
+              <div class="chat__content">
+                <span class="chat_username">
+                  Lynn
+                </span>
+                <span class="chat__preview">Going home</span>
+              </div>
             </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
-          <!--//new father -> chats__oo 부모에게 자식이 너무 많아지는 것을 방지하기
+            <div class="chat__column">
+              <span class="chat__timestamp">Yesterday</span>
+            </div>
+            <!--//new father -> chats__oo 부모에게 자식이 너무 많아지는 것을 방지하기
           위해 새로운 부모 chat을 추가함. naming방식임.(구분하기 편해짐)-->
+          </a>
         </li>
       </ul>
     </main>
