@@ -15,3 +15,13 @@
   margin-left: 20px;
   cursor: pointer; /*클릭할 수는 없지만 형식상 맞춰 놓음*/
 }
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+} /* 채팅방에서만 적용됨. 다른 html은 옆에 다른 Element를 가지고 있지 않기 때문. */
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 10px;
+}
