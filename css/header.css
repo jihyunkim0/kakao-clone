@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header .header__title {
+  font-size: 24px;
+  font-weight: 600; /*구글폰트에서 import된 크기만 가능 600은 안됨. 근데 import숫자를 바꾸면 됨*/
+}
+
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer; /*클릭할 수는 없지만 형식상 맞춰 놓음*/
+}
