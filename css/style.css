@@ -2,12 +2,18 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: white;
   padding: 10px 20px;
   color: #020202; /*그냥 검정을 쓰는 건 별로다 찾아보기*/
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  height: 100000px;
 }
 
 a {
