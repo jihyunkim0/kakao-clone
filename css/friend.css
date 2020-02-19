@@ -6,9 +6,42 @@
 
 .friend .friend__avatar {
   width: 50px;
-  border-radius: 35%;
+  border-radius: 38%;
 }
 
 .friend__avatar.g-avatar {
-  /* width: 70px; */
+  width: 70px;
 } /*붙여쓰면 두 클래스 모두를 의미, 띄어쓰면 friend__avatar 안에 있는 g-avatar를 의미*/
+
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+} /*내용 블럭화 세로정렬*/
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
