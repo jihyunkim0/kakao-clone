@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body class="chats__body">
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -42,7 +42,7 @@
         ><!--div는 block요소 span은 inline요소 block은 이 레이아웃구조에서 안먹힘 flex-->
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, Janury 11, 2019</span>
         <li class="incoming-message message">
@@ -53,10 +53,9 @@
               Congrats I love you!
             </div>
           </div>
-          <span class="message__tiomestemp"></span>
         </li>
         <!--캄럼에 들어있는걸  전부 메시지라고 볼 수 있다. 패딩, 텍스트 스타일,timstamp을 공유하고 있기 떄문.-->
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__tiomestemp"></span>
           <div class="message__content">
             <div class="message__bubble">
