@@ -1,0 +1,50 @@
+.chats-body {
+  padding: 0;
+}
+.chat {
+  background-image: url(../images/chatBg.png);
+  min-height: 100vh; /*chat class가 적용된 div의 viewport(=screen)에 100% 높이를 준다. */
+}
+
+.chats-body .headre,
+.chat-body .status-bar {
+  padding: 0px 20px;
+}
+
+.chat__write {
+  position: fixed;
+  bottom: 50px;
+  width: 80%;
+  /*가운데 정렬*/
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcfcfc;
+  padding: 0px 20px;
+  border-radius: 40px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.chat__write--write i {
+  font-size: 22px;
+}
+
+.chat__write-column:nth-child(2) {
+  width: 80%;
+}
+
+.chat__write-column input {
+  padding: 20px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+}
+
+.chat__write-column input:focus {
+  outline: none;
+}
