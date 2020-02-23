@@ -63,6 +63,10 @@
   outline: none;
 }
 
+.chat__write:focus ~ .chat__icon {
+  display: none;
+} /*~ input다음에 있는 sibling선택*/
+
 .chat__write i {
   font-size: 22px;
 }
