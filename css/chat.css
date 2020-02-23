@@ -178,3 +178,32 @@
   border-bottom-right-radius: 0px;
   background-image: linear-gradient(to left, #00c6ff, #0072ff);
 }
+
+@keyframes incomingAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.incoming-message {
+  animation: incomingAnimation 0.5s ease-out forwards;
+}
+@keyframes sentAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.sent-message {
+  animation: sentAnimation 0.5s ease-out forwards;
+} /*forwards는 요소(sent-message)가 끝까지 @keyframes의 value들을 계속 유지한다.*/
