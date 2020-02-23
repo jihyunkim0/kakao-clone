@@ -63,8 +63,13 @@
   outline: none;
 }
 
+.chat__icon {
+  font-size: 18px;
+  transition: opacity 0.3s ease-in-out;
+}
+
 .chat__write:focus ~ .chat__icon {
-  display: none;
+  opacity: 0;
 } /*~ input다음에 있는 sibling선택*/
 
 .chat__write i {
