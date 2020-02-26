@@ -20,7 +20,11 @@ body {
   padding: 10px 20px;
   color: #020202; /*그냥 검정을 쓰는 건 별로다 찾아보기*/
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  height: 100000px;
+  height: 10000px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
