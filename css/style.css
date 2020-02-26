@@ -23,6 +23,7 @@ body {
   height: 10000px;
 }
 
+/*스크롤바 없애기*/
 body::-webkit-scrollbar {
   display: none;
 }
