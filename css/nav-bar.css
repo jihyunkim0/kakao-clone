@@ -37,3 +37,17 @@
   align-items: center;
   border-radius: 50%;
 }
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    transform: none;
+  }
+}
+.nav {
+  transform: translateY(80px); /*default status로 설정*/
+  animation: showNavBar 0.5s ease-out;
+  animation-delay: 0.5s;
+}
